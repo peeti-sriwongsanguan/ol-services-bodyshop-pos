@@ -1,0 +1,74 @@
+.env
+*.pem
+.pem
+singlerow-aws.pem
+
+.idea/
+__pycache__
+
+file
+
+.ipynb_checkpoints
+notebook/.ipynb_checkpoints/*
+
+.DS_Store
+
+
+
+config/authorized_users.json
+config/*
+cache
+
+static/images/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+.env
+cache/*
+!cache/.gitkeep
+logs/*
+!logs/.gitkeep
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+models/
+processed_data/
+

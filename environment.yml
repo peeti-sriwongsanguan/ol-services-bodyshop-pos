@@ -1,0 +1,9 @@
+name: truck-repair-pos
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip>=23.0
+  - pip:
+    - -r requirements.txt

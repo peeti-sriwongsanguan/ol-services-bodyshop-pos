@@ -1,0 +1,45 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="truck-repair-pos",
+    version="1.0.0",
+    description="Truck Repair POS System with multilingual support",
+    author="Peeti S",
+    author_email="peeti@pharma-techsolutions.com",
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        "fastapi>=0.103.1",
+        "uvicorn>=0.23.2",
+        "pydantic>=2.4.2",
+        "sqlalchemy>=2.0.21",
+        "alembic>=1.12.0",
+        "psycopg2-binary>=2.9.7",
+        "python-jose>=3.3.0",
+        "passlib>=1.7.4",
+        "bcrypt>=4.0.1",
+        "python-multipart>=0.0.6",
+        "aiofiles>=23.1.0",
+        "jinja2>=3.1.2",
+        "confluent-kafka>=2.2.0",
+        "pillow>=10.0.1",
+        "weasyprint>=59.0",
+        "python-dateutil>=2.8.2",
+        "pytz>=2023.3.post1",
+    ],
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "Natural Language :: English",
+        "Natural Language :: Thai",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
+    python_requires=">=3.10",
+    entry_points={
+        "console_scripts": [
+            "truck-pos=api.main:run_app",
+        ],
+    },
+)

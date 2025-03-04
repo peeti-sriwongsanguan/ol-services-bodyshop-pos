@@ -1,0 +1,62 @@
+# API Dependencies
+fastapi==0.103.1
+uvicorn==0.23.2
+pydantic==2.4.2
+pydantic-extra-types==2.1.0
+pydantic-settings==2.0.3
+email-validator==2.0.0.post2
+sqlalchemy==2.0.21
+alembic==1.12.0
+psycopg2-binary==2.9.7
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.6
+aiofiles==23.1.0
+jinja2==3.1.2
+httpx==0.24.1
+
+# Kafka Integration
+confluent-kafka==2.2.0
+
+# AWS Integration
+boto3==1.28.44
+s3fs==2023.6.0
+
+# Image Processing
+Pillow==10.0.1
+qrcode==7.4.2
+
+# PDF Generation
+weasyprint==59.0
+pdfkit==1.0.0
+reportlab==4.0.4
+
+# Date/Time Handling
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Utilities
+python-slugify==8.0.1
+phonenumbers==8.13.19
+requests==2.31.0
+validators==0.22.0
+pycountry==23.12.11
+
+# Logging & Monitoring
+structlog==23.1.0
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.2
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+httpx==0.24.1
+faker==19.6.0
+
+# Development Tools
+black==23.9.1
+isort==5.12.0
+flake8==6.1.0
+mypy==1.5.1
+pre-commit==3.4.0
